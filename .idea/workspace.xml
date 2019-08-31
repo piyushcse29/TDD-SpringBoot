@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="261d532a-3c0b-4a04-a703-b42bbc81d88d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/piyushmittal/tdd/iphone/IphoneApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/piyushmittal/tdd/iphone/IphoneApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/piyushmittal/tdd/iphone/Iphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/piyushmittal/tdd/iphone/IphoneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/piyushmittal/tdd/iphone/IphoneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/piyushmittal/tdd/iphone/IphoneControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/piyushmittal/tdd/iphone/IphoneIntegrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/piyushmittal/tdd/iphone/IphoneApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/piyushmittal/tdd/add/AddApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/piyushmittal/tdd/add/AddApplicationTests.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,12 +17,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,7 +50,14 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.piyushmittal.tdd.iphone" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -67,9 +85,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IphoneIntegrationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD-SpringBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.piyushmittal.tdd.iphone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.piyushmittal.tdd.iphone" />
+      <option name="MAIN_CLASS_NAME" value="com.piyushmittal.tdd.iphone.IphoneIntegrationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IphoneIntegrationTests.getIphoneDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD-SpringBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.piyushmittal.tdd.iphone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.piyushmittal.tdd.iphone" />
+      <option name="MAIN_CLASS_NAME" value="com.piyushmittal.tdd.iphone.IphoneIntegrationTests" />
+      <option name="METHOD_NAME" value="getIphoneDetails" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IphoneServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD-SpringBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.piyushmittal.tdd.iphone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.piyushmittal.tdd.iphone" />
+      <option name="MAIN_CLASS_NAME" value="com.piyushmittal.tdd.iphone.IphoneServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IphoneServiceTest.getIphone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD-SpringBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.piyushmittal.tdd.iphone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.piyushmittal.tdd.iphone" />
+      <option name="MAIN_CLASS_NAME" value="com.piyushmittal.tdd.iphone.IphoneServiceTest" />
+      <option name="METHOD_NAME" value="getIphone" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IphoneServiceTest" />
+        <item itemvalue="JUnit.IphoneServiceTest.getIphone" />
+        <item itemvalue="JUnit.IphoneIntegrationTests.getIphoneDetails" />
         <item itemvalue="Application.IphoneApplication" />
+        <item itemvalue="JUnit.IphoneIntegrationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -99,7 +183,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -115,6 +201,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/piyushmittal/tdd/iphone/IphoneApplication.java</url>
           <line>6</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/piyushmittal/tdd/iphone/IphoneService.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/piyushmittal/tdd/iphone/IphoneController.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
