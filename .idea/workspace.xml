@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="261d532a-3c0b-4a04-a703-b42bbc81d88d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/piyushmittal/tdd/iphone/Iphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/piyushmittal/tdd/iphone/IphoneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/piyushmittal/tdd/iphone/IphoneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/piyushmittal/tdd/iphone/IphoneControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/piyushmittal/tdd/iphone/IphoneIntegrationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/piyushmittal/tdd/iphone/IphoneApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/piyushmittal/tdd/add/AddApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/piyushmittal/tdd/add/AddApplicationTests.class" beforeDir="false" />
-    </list>
+    <list default="true" id="261d532a-3c0b-4a04-a703-b42bbc81d88d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
